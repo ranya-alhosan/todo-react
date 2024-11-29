@@ -1,0 +1,94 @@
+/* General App Styling */
+.app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-btn,
+  .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Task List Styling */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .task-text {
+    flex: 1;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
